@@ -4,12 +4,18 @@
      font-size: 24px;
 }
 
+header { display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-wrap: wrap;
+}
+
 .titulo {color: #5C1605;
-     text-align: center;
-      text-decoration: underline;
-      text-decoration-style: wavy;
-      font-size: 32px;
-    }
+text-align: center;
+text-decoration: underline;
+text-decoration-style: wavy;
+font-size: 32px;
+}
 
 .imagenes {width: 50%; height: 50%;}
 
@@ -22,3 +28,8 @@ background-size:;
 .lista {font-size: 24px;
 color: #331A15;
 }
+
+.titulo :hover{color: #573934;
+background-color: #5C1605;}
+
+header {justify-content: center;}
